@@ -31,7 +31,7 @@ int main() {
     // Wait until a signal is received
     while(1) {
         printf("Sleeping\n");
-        sleep(1);
+        sleep(100);
     }
 
     return 0;
