@@ -4,9 +4,10 @@
  */
 
 /**
- * Modified by:
- * 
- * Brief summary of modifications:
+ * Modified by: Andrew Lizak
+ * 11/19/24
+ * LAB 10
+ * Brief summary of modifications: i changed the file to have a signal handler for the SIGSEGV signal so it exits gracefuly
  */
 
 

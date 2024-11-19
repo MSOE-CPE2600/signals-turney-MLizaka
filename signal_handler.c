@@ -1,6 +1,9 @@
 /**
+ * ANDREW LIZAK
+ * LAB10
+ * 11/19/24
  * @file signal_handler.c
- * @brief Sets a signal handler for SIGINT, the handler prints a message and then quits
+ * @brief Sets a signal handler for SIGINT, the handler prints a message must kill process with sigkill
  */
 
 /**
@@ -20,7 +23,6 @@
  */
 void handle_signal() {
     printf("Received a signal\n");
-    exit(1);
 }
 
 int main() {
